@@ -1,0 +1,25 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=aa15b42d
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "khanhbang-s001.vmdk"
+RW 8323072 SPARSE "khanhbang-s002.vmdk"
+RW 8323072 SPARSE "khanhbang-s003.vmdk"
+RW 8323072 SPARSE "khanhbang-s004.vmdk"
+RW 8323072 SPARSE "khanhbang-s005.vmdk"
+RW 327680 SPARSE "khanhbang-s006.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "2610"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "1781c5865b3368fb1f798ba5aa15b42d"
+ddb.uuid = "60 00 C2 92 2e 8f bd 34-d6 95 32 cd 42 cb ef d3"
+ddb.virtualHWVersion = "20"
